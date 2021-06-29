@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Raleway:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Raleway:wght@400;700&display=swap");
 
-:root{
-    font-family: 'Orbitron';
-    background-color: #FFEB00;
+:root {
+    font-family: "Orbitron";
+    background-color: #ffeb00;
 }
 
-h2{
+h2 {
     font-weight: 400;
     margin: 0;
     font-size: 2em;
@@ -26,12 +26,12 @@ h3 {
     font-size: 1.5em;
 }
 
-body{
+body {
     padding: 2em;
 }
 
 .navbar {
-    .mainheading{
+    .mainheading {
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -40,30 +40,33 @@ body{
             text-decoration: none;
             color: #000;
             transition-timing-function: ease-out;
-            transition-duration: 0.05s
-
+            transition-duration: 0.05s;
         }
-        a:hover {transform: translateY(-0.5em);}
-        a:active {transform: translateY(-0.1em);}
+        a:hover {
+            transform: translateY(-0.5em);
+        }
+        a:active {
+            transform: translateY(-0.1em);
+        }
     }
 }
 
-.gamesection{
+.gamesection {
     margin-top: 5em;
-    .container{
+    .container {
         max-width: 1400px;
         display: flex;
         flex-wrap: wrap;
         margin: auto;
-        .you{
+        .you {
             flex: 1;
             text-align: center;
-            
+
             button {
                 background-color: transparent;
                 border: transparent;
                 transition-timing-function: ease-out;
-                transition-duration: 0.05s
+                transition-duration: 0.05s;
             }
             button:hover {
                 transform: scale(1.2);
@@ -72,24 +75,24 @@ body{
                 transform: scale(1.1);
             }
 
-
-            .uimages{
+            .uimages {
                 padding-top: 5em;
                 display: flex;
                 flex-direction: column;
-                .uhand {height: 10em; 
-                    padding-top: 1em;}
+                .uhand {
+                    height: 10em;
+                    padding-top: 1em;
+                }
             }
         }
 
-        .separatorline{
+        .separatorline {
             width: 1px;
             background-color: black;
             filter: drop-shadow(0.2em 0.2em 0 #d9c800);
-            
         }
-        
-        .yournemisis{
+
+        .yournemisis {
             flex: 1;
             text-align: center;
             display: flex;
@@ -97,7 +100,7 @@ body{
             align-items: stretch;
             align-content: stretch;
             height: 100%;
-            .yournemesisimg{
+            .yournemesisimg {
                 height: 33em;
                 position: relative;
                 #yournemesisid {
@@ -114,8 +117,8 @@ body{
             justify-content: space-around;
             flex: 100%;
         }
-        
-        .slider{
+
+        .slider {
             flex: 100%;
             text-align: center;
             #range {
@@ -125,7 +128,7 @@ body{
                 height: 1px;
                 filter: drop-shadow(0.2em 0.2em 0 #d9c800);
             }
-            #range::-webkit-slider-thumb{
+            #range::-webkit-slider-thumb {
                 -webkit-appearance: none;
                 appearance: none;
                 background: black;
@@ -140,6 +143,19 @@ body{
             text-align: center;
             margin: auto;
             padding-top: 1.5em;
+            transition: opacity 0.6s ease-out;
+        }
+
+        .inactive {
+            opacity: 0;
         }
     }
+}
+
+input[type="range"] {
+    pointer-events: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    pointer-events: none;
 }
