@@ -85,6 +85,8 @@ let losscount = 0;
 document.getElementById("wins").textContent = `Wins: ${wincount}`;
 document.getElementById("losses").textContent = `Losses: ${losscount}`;
 
+document.getElementById("result").innerHTML = "&nbsp;";
+
 function win() {
     wincount++;
     document.getElementById("wins").textContent = `Wins: ${wincount}`;
