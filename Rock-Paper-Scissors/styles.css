@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Raleway:wght@400;700&display=swap");
+:root {
+  font-family: 'Orbitron';
+  background-color: #FFEB00;
+}
+
+h2 {
+  font-weight: 400;
+  margin: 0;
+  font-size: 2em;
+  -webkit-filter: drop-shadow(0.2em 0.2em 0 #d9c800);
+          filter: drop-shadow(0.2em 0.2em 0 #d9c800);
+}
+
+h1 {
+  font-weight: 400;
+  margin: 0;
+  font-size: 2.2em;
+  -webkit-filter: drop-shadow(0.2em 0.2em 0 #d9c800);
+          filter: drop-shadow(0.2em 0.2em 0 #d9c800);
+}
+
+h3 {
+  -webkit-filter: drop-shadow(0.2em 0.2em 0 #d9c800);
+          filter: drop-shadow(0.2em 0.2em 0 #d9c800);
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+body {
+  padding: 2em;
+}
+
+.navbar .mainheading {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.navbar .mainheading a {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.05s;
+          transition-duration: 0.05s;
+}
+
+.navbar .mainheading a:hover {
+  -webkit-transform: translateY(-0.5em);
+          transform: translateY(-0.5em);
+}
+
+.navbar .mainheading a:active {
+  -webkit-transform: translateY(-0.1em);
+          transform: translateY(-0.1em);
+}
+
+.gamesection {
+  margin-top: 5em;
+}
+
+.gamesection .container {
+  max-width: 1400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+}
+
+.gamesection .container .you {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+.gamesection .container .you button {
+  background-color: transparent;
+  border: transparent;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.05s;
+          transition-duration: 0.05s;
+}
+
+.gamesection .container .you button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.gamesection .container .you button:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.gamesection .container .you .uimages {
+  padding-top: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.gamesection .container .you .uimages .uhand {
+  height: 10em;
+  padding-top: 1em;
+}
+
+.gamesection .container .separatorline {
+  width: 1px;
+  background-color: black;
+  -webkit-filter: drop-shadow(0.2em 0.2em 0 #d9c800);
+          filter: drop-shadow(0.2em 0.2em 0 #d9c800);
+}
+
+.gamesection .container .yournemisis {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  height: 100%;
+}
+
+.gamesection .container .yournemisis .yournemesisimg {
+  height: 33em;
+  position: relative;
+}
+
+.gamesection .container .yournemisis .yournemesisimg #yournemesisid {
+  height: 13em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+.gamesection .container .results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+
+.gamesection .container .slider {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  text-align: center;
+}
+
+.gamesection .container .slider #range {
+  -webkit-appearance: none;
+  background: black;
+  width: 70%;
+  height: 1px;
+  -webkit-filter: drop-shadow(0.2em 0.2em 0 #d9c800);
+          filter: drop-shadow(0.2em 0.2em 0 #d9c800);
+}
+
+.gamesection .container .slider #range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background: black;
+  width: 1.4em;
+  height: 1.4em;
+  border-radius: 100%;
+  -webkit-filter: drop-shadow(0.2em 0.2em 0 #d9c800);
+          filter: drop-shadow(0.2em 0.2em 0 #d9c800);
+}
+
+.gamesection .container #result {
+  text-align: center;
+  margin: auto;
+  padding-top: 1.5em;
+}
+/*# sourceMappingURL=styles.css.map */

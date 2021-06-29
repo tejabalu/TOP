@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div class="navbar">
+        <div class="mainheading">
+            <h1>Rock-Paper-Scissors</h1>
+            <a id="aboutlink" href="#">
+                <h2>About ⓘ</h2>
+            </a>
+            </div>
+        </div>
+    </div>
+
+    <section class="gamesection">
+        <div class="container">
+            
+            <div class="you">
+                <h2>You</h2>
+                <div class="uimages">
+                    <button onclick="playerchoice1()" class="rockb">
+                        <img id="rock" class="uhand" src="/images/icons-01.svg" alt="Rock">
+                    </button>
+                    <button onclick="playerchoice2()" class="paperb">
+                        <img id="paper" class="uhand" src="/images/icons-02.svg" alt="Paper">
+                    </button>
+                    <button onclick="playerchoice3()" class="scissorsb">
+                        <img id="scissors" class="uhand" src="/images/icons-03.svg" alt="Scissors">
+                    </button>
+                </div>
+            </div>
+            
+            <div class="separatorline"> </div>
+
+            <div class="yournemisis">
+                <h2>Your Digital Nemesis</h2>
+                <div class="yournemesisimg">
+                    <img id="yournemesisid" src="/images/icons-01.svg" alt="">
+                </div>
+            </div>
+            
+            <div class="results">
+                <h3 id="wins">Wins:</h3>
+                <h3 id="losses">Losses:</h3>
+            </div>
+
+            <div class="slider">
+                <input type="range" min="0" max="100" value="50" class="slider" id="range">
+            </div>
+
+            <h3 id="result">
+                
+            </h3>
+
+
+        </div>
+    </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
