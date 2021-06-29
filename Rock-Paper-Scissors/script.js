@@ -1,8 +1,8 @@
 var picPaths = [
     "",
-    "/images/icons-01.svg",
-    "/images/icons-02.svg",
-    "/images/icons-03.svg",
+    "./images/icons-01.svg",
+    "./images/icons-02.svg",
+    "./images/icons-03.svg",
 ];
 var imgO = new Array();
 var curPic = 0;
