@@ -264,10 +264,13 @@ input[type="range"]::-webkit-slider-thumb {
 
 @media (max-width: 720px) {
   body {
-    padding: 1em;
+    padding: 1vw;
   }
   h3 {
-    font-size: 1.2em;
+    font-size: 5vw;
+  }
+  h2 {
+    font-size: 6vw;
   }
   .navbar {
     display: -webkit-box;
@@ -280,10 +283,16 @@ input[type="range"]::-webkit-slider-thumb {
   .navbar .mainheading h1 {
     display: block;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 7vw;
   }
   .navbar .mainheading #aboutlink {
     display: none;
+  }
+  .gamesection {
+    margin-top: 10vw;
+  }
+  .gamesection .container .you .uimages .uhand {
+    height: 25vw;
   }
   .gamesection .container .you button:hover {
     -webkit-transform: scale(1);
@@ -300,13 +309,16 @@ input[type="range"]::-webkit-slider-thumb {
         flex-basis: 100%;
   }
   .gamesection .container .aboutlinkbottom #aboutlinkb {
-    padding-top: 1.1em;
+    padding-top: 4vw;
     text-decoration: none;
     display: block;
     color: #000;
   }
+  .gamesection .container .yournemisis .yournemesisimg {
+    height: 90vw;
+  }
   .gamesection .container .yournemisis .yournemesisimg #yournemesisid {
-    height: 7em;
+    height: 30vw;
   }
 }
 /*# sourceMappingURL=styles.css.map */
