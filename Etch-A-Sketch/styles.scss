@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap");
+// :root {
+//     display: flex;
+//     align-items: stretch;
+//     justify-content: center;
+//     width: 100vw;
+//     height: 100vh;
+// }
+
+body {
+    background-color: #202124;
+    margin: auto 0 auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        margin-top: 5vh;
+        font-size: 3em;
+        font-family: "Ubuntu", sans-serif;
+        font-style: italic;
+        color: white;
+        font-weight: 400;
+    }
+}
+
+.container {
+    .navbar {
+        width: 100%;
+        h1 {
+            width: 100%;
+            text-align: center;
+            filter: drop-shadow(0.5em 0.5em 0.5em black);
+        }
+    }
+
+    width: 90vw;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .main {
+        filter: drop-shadow(0.5em 0.5em 0.5em black);
+        .etchcontainer {
+            display: flex;
+            width: 80vw;
+            height: 80vw;
+            max-width: 65vh;
+            max-height: 65vh;
+            border-top: 1px solid white;
+            border-left: 1px solid white;
+            align-items: stretch;
+            flex-direction: column;
+            .column {
+                flex: 1;
+                display: flex;
+                justify-content: space-between;
+                .row {
+                    flex: 1;
+                    border-right: 1px solid white;
+                    border-bottom: 1px solid white;
+                }
+            }
+        }
+    }
+
+    .buttons {
+        filter: drop-shadow(0.5em 0.5em 0.5em rgba(0, 0, 0, 0.5));
+
+        width: 10em;
+        margin-right: 1em;
+        display: flex;
+        flex-direction: column;
+
+        transition-timing-function: ease-out;
+        transition-duration: 0.05s;
+
+        #customcolor {
+            -webkit-appearance: none;
+            text-decoration: none;
+            border: none;
+            height: 2em;
+            width: 2em;
+        }
+        #customcolor::-webkit-color-swatch-wrapper {
+            padding: 0;
+            border: none;
+        }
+        #customcolor::-webkit-color-swatch {
+            border: none;
+        }
+
+        button:hover {
+            transform: scale(1.2);
+        }
+        button:active {
+            transform: scale(1.1);
+        }
+
+        .button {
+            transition-timing-function: ease-out;
+            transition-duration: 0.03s;
+            padding: 0.5em;
+            cursor: pointer;
+        }
+    }
+
+    .swatches {
+        filter: drop-shadow(0.5em 0.5em 0.5em rgba(0, 0, 0, 0.5));
+        margin-left: 2em;
+        width: 10em;
+        display: flex;
+        flex-direction: column;
+
+        button:hover {
+            transform: scale(1.2);
+        }
+        button:active {
+            transform: scale(1.1);
+        }
+
+        .button {
+            transition-timing-function: ease-out;
+            transition-duration: 0.03s;
+            padding: 1em;
+            cursor: pointer;
+        }
+    }
+
+    .button {
+        font-family: "Oxygen", sans-serif;
+        font-size: 1.5em;
+        color: white;
+
+        text-decoration: none;
+        background-color: transparent;
+        border: transparent;
+    }
+}
+
+.slider {
+    padding-top: 0.8em;
+    font-family: "Oxygen", sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+#slider {
+    max-width: 900px;
+    margin-top: 3em;
+    -webkit-appearance: none;
+    // background: white;
+    width: 70%;
+    height: 1px;
+}
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background: white;
+    width: 1em;
+    height: 1em;
+    border-radius: 100%;
+    border: transparent;
+}
+#slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background: white;
+    width: 1em;
+    height: 1em;
+    border-radius: 100%;
+    border: transparent;
+}
+
+.icon1 {
+    background-image: url(../images/1.svg);
+    background-size: cover;
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+}
+
+.icon2 {
+    background-image: url(../images/2.svg);
+    background-size: cover;
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+}
+
+.icon3 {
+    background-image: url(../images/3.svg);
+    background-size: cover;
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+}
+
+.icon4 {
+    background-image: url(../images/4.svg);
+    background-size: cover;
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+}
+
+.icon5 {
+    background-image: url(../images/5.svg);
+    background-size: cover;
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+}
+
+.icon6 {
+    background-image: url(../images/6.svg);
+    background-size: cover;
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+}
+
+#blue {
+    margin-top: 1.5em;
+    background-color: #163e8c;
+    border: solid 1px white;
+    padding: 0.8em 0.8em;
+    width: 0.8em;
+    display: inline-block;
+}
+
+#cyan {
+    margin-top: 1.5em;
+    background-color: #59d986;
+    border: solid 1px white;
+    padding: 0.8em 0.8em;
+    width: 0.8em;
+    display: inline-block;
+}
+
+#yellow {
+    margin-top: 1.5em;
+    background-color: #f2c849;
+    border: solid 1px white;
+    padding: 0.8em 0.8em;
+    width: 0.8em;
+    display: inline-block;
+}
+
+#orange {
+    margin-top: 1.5em;
+    background-color: #f26a1b;
+    border: solid 1px white;
+    padding: 0.8em 0.8em;
+    width: 0.8em;
+    display: inline-block;
+}
+
+#red {
+    margin-top: 1.5em;
+    background-color: #d92211;
+    border: solid 1px white;
+    padding: 0.8em 0.8em;
+    width: 0.8em;
+    display: inline-block;
+}
+
+#random {
+    margin-top: 1.5em;
+    background: url("../images/colorpicker.png");
+    background-size: contain;
+    // background-image: url("../images/colorpicker.png") 1em 1em no-repeat;
+    border: solid 1px white;
+    padding: 0.8em 0.8em;
+    width: 1em;
+    display: inline-block;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pixel-Paint</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <h1>Pixel-Paint</h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="buttons">
+                <button class="button" id="customcolorbt">
+                    Color &nbsp
+                    <input
+                        onclick="color(1)"
+                        type="color"
+                        name="customcolor"
+                        id="customcolor"
+                        value="#F2C849"
+                    />
+                </button>
+                <button class="button" onclick="color(2)" id="brush">
+                    Brush &nbsp<i class="icon1"></i>
+                </button>
+                <button class="button" onclick="color(3)" id="blend">
+                    Blend &nbsp<i class="icon2"></i>
+                </button>
+                <button class="button" onclick="color(4)" id="lighten">
+                    Light &nbsp<i class="icon3"></i>
+                </button>
+                <button class="button" onclick="color(5)" id="darken">
+                    Dark &nbsp<i class="icon4"></i>
+                </button>
+                <button class="button" onclick="color(6)" id="erase">
+                    Erase &nbsp<i class="icon5"></i>
+                </button>
+                <button class="button" onclick="color(7)" id="clear">
+                    Clear &nbsp<i class="icon6"></i>
+                </button>
+            </div>
+
+            <div class="main" id="main">
+                <div class="etchcontainer" id="etchcontainer"></div>
+            </div>
+
+            <div class="swatches">
+                <button class="button" onclick="color(8)" id="blue"></button>
+                <button class="button" onclick="color(9)" id="cyan"></button>
+                <button class="button" onclick="color(10)" id="yellow"></button>
+                <button class="button" onclick="color(11)" id="orange"></button>
+                <button class="button" onclick="color(12)" id="red"></button>
+                <button class="button" onclick="color(13)" id="random"></button>
+            </div>
+        </div>
+
+        <input type="range" min="5" max="64" name="slider" id="slider" />
+
+        <div id="slidertext" class="slider">Artboard: 16 x 16</div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
