@@ -226,7 +226,7 @@ body h1 {
 }
 
 .icon1 {
-  background-image: url(../images/1.svg);
+  background-image: url(1.png);
   background-size: cover;
   display: inline-block;
   height: 0.8em;
@@ -234,7 +234,7 @@ body h1 {
 }
 
 .icon2 {
-  background-image: url(../images/2.svg);
+  background-image: url(2.png);
   background-size: cover;
   display: inline-block;
   height: 0.8em;
@@ -242,7 +242,7 @@ body h1 {
 }
 
 .icon3 {
-  background-image: url(../images/3.svg);
+  background-image: url(3.png);
   background-size: cover;
   display: inline-block;
   height: 0.8em;
@@ -250,7 +250,7 @@ body h1 {
 }
 
 .icon4 {
-  background-image: url(../images/4.svg);
+  background-image: url(4.png);
   background-size: cover;
   display: inline-block;
   height: 0.8em;
@@ -258,7 +258,7 @@ body h1 {
 }
 
 .icon5 {
-  background-image: url(../images/5.svg);
+  background-image: url(5.png);
   background-size: cover;
   display: inline-block;
   height: 0.8em;
@@ -266,7 +266,7 @@ body h1 {
 }
 
 .icon6 {
-  background-image: url(../images/6.svg);
+  background-image: url(6.png);
   background-size: cover;
   display: inline-block;
   height: 0.8em;
@@ -320,7 +320,7 @@ body h1 {
 
 #random {
   margin-top: 1.5em;
-  background: url("../images/colorpicker.png");
+  background: url("colorpicker.png");
   background-size: contain;
   border: solid 1px white;
   padding: 0.8em 0.8em;
