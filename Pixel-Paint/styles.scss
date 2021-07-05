@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,400;1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap");
-// :root {
-//     display: flex;
-//     align-items: stretch;
-//     justify-content: center;
-//     width: 100vw;
-//     height: 100vh;
-// }
 
 body {
     background-color: #202124;
@@ -174,7 +167,7 @@ body {
 }
 
 .icon1 {
-    background-image: url(../images/1.svg);
+    background-image: url(1.png);
     background-size: cover;
     display: inline-block;
     height: 0.8em;
@@ -182,7 +175,7 @@ body {
 }
 
 .icon2 {
-    background-image: url(../images/2.svg);
+    background-image: url(2.png);
     background-size: cover;
     display: inline-block;
     height: 0.8em;
@@ -190,7 +183,7 @@ body {
 }
 
 .icon3 {
-    background-image: url(../images/3.svg);
+    background-image: url(3.png);
     background-size: cover;
     display: inline-block;
     height: 0.8em;
@@ -198,7 +191,7 @@ body {
 }
 
 .icon4 {
-    background-image: url(../images/4.svg);
+    background-image: url(4.png);
     background-size: cover;
     display: inline-block;
     height: 0.8em;
@@ -206,7 +199,7 @@ body {
 }
 
 .icon5 {
-    background-image: url(../images/5.svg);
+    background-image: url(5.png);
     background-size: cover;
     display: inline-block;
     height: 0.8em;
@@ -214,7 +207,7 @@ body {
 }
 
 .icon6 {
-    background-image: url(../images/6.svg);
+    background-image: url(6.png);
     background-size: cover;
     display: inline-block;
     height: 0.8em;
@@ -268,9 +261,8 @@ body {
 
 #random {
     margin-top: 1.5em;
-    background: url("../images/colorpicker.png");
+    background: url("colorpicker.png");
     background-size: contain;
-    // background-image: url("../images/colorpicker.png") 1em 1em no-repeat;
     border: solid 1px white;
     padding: 0.8em 0.8em;
     width: 1em;
