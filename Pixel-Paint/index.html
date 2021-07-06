@@ -18,7 +18,7 @@
         <div class="container">
             <div class="buttons">
                 <button class="button" id="customcolorbt">
-                    Color &nbsp
+                    <span id="btntext"> Color &nbsp </span>
                     <input
                         onclick="color(1)"
                         type="color"
@@ -28,22 +28,28 @@
                     />
                 </button>
                 <button class="button" onclick="color(2)" id="brush">
-                    Brush &nbsp<i class="icon1"></i>
+                    <span id="btntext"> Brush &nbsp </span>
+                    <i class="icon1"></i>
                 </button>
                 <button class="button" onclick="color(3)" id="blend">
-                    Blend &nbsp<i class="icon2"></i>
+                    <span id="btntext"> Blend &nbsp </span>
+                    <i class="icon2"></i>
                 </button>
                 <button class="button" onclick="color(4)" id="lighten">
-                    Light &nbsp<i class="icon3"></i>
+                    <span id="btntext"> Light &nbsp </span>
+                    <i class="icon3"></i>
                 </button>
                 <button class="button" onclick="color(5)" id="darken">
-                    Dark &nbsp<i class="icon4"></i>
+                    <span id="btntext"> Dark &nbsp </span>
+                    <i class="icon4"></i>
                 </button>
                 <button class="button" onclick="color(6)" id="erase">
-                    Erase &nbsp<i class="icon5"></i>
+                    <span id="btntext"> Erase &nbsp </span>
+                    <i class="icon5"></i>
                 </button>
                 <button class="button" onclick="color(7)" id="clear">
-                    Clear &nbsp<i class="icon6"></i>
+                    <span id="btntext"> Clear &nbsp </span>
+                    <i class="icon6"></i>
                 </button>
             </div>
 
@@ -64,6 +70,15 @@
         <input type="range" min="5" max="64" name="slider" id="slider" />
 
         <div id="slidertext" class="slider">Artboard: 16 x 16</div>
+
+        <div class="container">
+            <div id="abouttext" class="abouttext">
+                Done by Teja Balu as part of The Odin Project Curriculum.<br />
+                <a href="https://www.tejabalu.com/">Portfolio</a>
+                &nbsp
+                <a href="https://www.behance.net/tejabalu">Behance</a>
+            </div>
+        </div>
 
         <script src="script.js"></script>
     </body>
